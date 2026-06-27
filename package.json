@@ -1,0 +1,9 @@
+{
+	"name": "fluent-web",
+	"version": "10.0.1-h1",
+	"description": "Win11 Style Theme and components."
+	"main": "src/index.js",
+	"scripts": {
+		"build": "esbuild src/index.js --bundle --minify --outfile=dist/fluent.min.js"
+	}
+}
